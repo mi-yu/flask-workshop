@@ -1,7 +1,7 @@
 <html>
-<h1>ALL THE NEWBIES!!!</h1>
+<h1>ALL THE students!!!</h1>
 
-<!-- Simple Jinja template for displaying newbie data-->
+<!-- Simple Jinja template for displaying student data-->
 <table>
     <thead>
         <tr>
@@ -11,9 +11,9 @@
         </tr>
     </thead>
     <tbody>
-      <!--newbies is passed to this template in views.py-->
-      <!--using a for loop since we want to display all newbies :) -->
-    {% for u in newbies %}
+      <!--students is passed to this template in views.py-->
+      <!--using a for loop since we want to display all students :) -->
+    {% for u in students %}
       <tr>
         <td>{{ u.first_name }}</td>
         <td>{{ u.last_name }}</td>
@@ -23,6 +23,6 @@
   </tbody>
 </table>
 
-<a href="/newbies/add">Add a newbie here!</a>
+<a href="/students/add">Add a student here!</a>
 
 </html>

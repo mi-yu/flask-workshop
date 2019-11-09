@@ -3,9 +3,9 @@ from wtforms.fields import (IntegerField, StringField, SubmitField)
 from wtforms.validators import InputRequired, Length
 
 
-class AddNewbieForm(FlaskForm):
+class AddStudentForm(FlaskForm):
     """
-    Form for adding a Newbie to our database
+    Form for adding a Student to our database
     """
     # first_name is the property name in our form
     # In the template with this form, we can render this field by calling {{ form.first_name }}

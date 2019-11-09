@@ -5,3 +5,5 @@ env
 app/models/__pycache__/*
 *.pyc
 .vscode/
+.vscode
+

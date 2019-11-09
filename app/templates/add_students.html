@@ -1,6 +1,6 @@
 <html>
-<h1>Add a newbie!</h1>
-<!--Frontend template for form to add newbies to database-->
+<h1>Add a student!</h1>
+<!--Frontend template for form to add students to database-->
 <form action="" method="POST">
     <!--We specify this CSRF token for security reasons--->
     {{ form.csrf_token }}
@@ -20,5 +20,5 @@
     </p>
     {{ form.submit }}
 </form>
-<a href="/newbies">Back</a>
+<a href="/students">Back</a>
 </html>
